@@ -93,6 +93,7 @@ if(mysqli_connect_errno()) {
             <select name="vegetarian" class="full_width" required>
                 <option value="" disabled selected>Vegetarian...</option>
                 <option value="yes">Vegetarian</option>
+                <option value="no">Non - Vegetarian</option>
             </select>
                 
             <input class="submit" type="submit" name="find_vegetarian" value="&#xf002;"/>
